@@ -1,6 +1,6 @@
-# LabScore
+# LabScore2
 
-Projeto LabScore é um mini projeto básico desenvolvido em HTML e JavaScript. Este mini projeto, visa fornecer uma plataforma online para gestão de notas e alunos. Ela representa uma plataforma de acompanhamento de notas.
+Projeto LabScore2 é um mini projeto básico desenvolvido em HTML e JavaScript. Este mini projeto, visa fornecer uma plataforma online para gestão de notas e alunos. Ela representa uma plataforma de acompanhamento de notas.
 
 ![Imagem da tela de cadastro](/img/Imagem1.png)
 ![Imagem da tela de dados do alunos](/img/Imagem2.png)
