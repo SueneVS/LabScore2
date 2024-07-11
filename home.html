@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabScore</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dados do Aluno</h1>
+    </header>
+    <section class="container">
+        <div class="info-aluno">
+            <h2>Informações do Aluno</h2>
+            <p><strong>Nome:</strong> <span id="nomeAluno"></span></p>
+            <p><strong>Idade:</strong> <span id="idadeAluno"></span></p>
+            <p><strong>Série:</strong> <span id="serieAluno"></span></p>
+            <p><strong>Escola:</strong> <span id="nomeEscola"></span></p>
+            <p><strong>Matéria Favorita:</strong> <span id="materiaFavorita"></span></p>
+        </div>
+        <div>
+            <h2>Endereço</h2>
+            <p><strong>Rua:</strong> <span id="ruaAluno"></span></p>
+            <p><strong>Cidade:</strong> <span id="cidadeAluno"></span></p>
+            <p><strong>Estado:</strong> <span id="estadoAluno"></span></p>
+        </div>
+
+        <div class="notas">
+            <div class="notas-button">
+                <h2>Notas das Matérias</h2>
+                <button class="button" id="add-linha">Adicionar Linha</button>
+            </div>
+            <table id="tabela-notas">
+                <thead>
+                    <tr>
+                        <th>Matéria</th>
+                        <th>Nota 1</th>
+                        <th>Nota 2</th>
+                        <th>Nota 3</th>
+                        <th>Nota 4</th>
+                        <th>Média</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <tr id="placeholder-row">
+                            <td colspan="6">Nenhuma matéria adicionada ainda</td>
+                        </tr>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="media">
+            <h2>Média Geral do Aluno</h2>
+            <p id="media-geral">A média geral do aluno é 0.0</p>
+            <p class="mensagme" id="mensagem"></p>
+        </div>
+
+        <div class="maior-media">
+            <h2>Maior Média entre as Matérias</h2>
+            <p id="maior-media">A maior média entre as matérias é 0.0</p>
+        </div>
+
+        <div class="lista-alunos">
+            <h2>Lista de Alunos</h2>
+            <ul id="alunos"></ul>
+        </div>
+    </section>
+    <footer>
+        <p>Elaborado por Suene Souza</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

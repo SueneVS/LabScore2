@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1, footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    margin:auto;
+    padding: 15px;
+}
+
+.info-aluno, .notas, .media, .maior-media, .lista-alunos {
+    margin-bottom: 20px;
+}
+
+.inf-aluno p, .media p, .maior-media p {
+    margin: 5px 0;
+}
+
+.media, .maior-media{
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.notas-button, .input-button{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.button {
+    display: block;
+    width: 20%;
+    margin: 20px 0 20px auto;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #555;
+}
+
+.endereco{
+    margin-bottom: 20px;
+}
